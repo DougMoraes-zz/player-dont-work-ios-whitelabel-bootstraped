@@ -1,0 +1,7 @@
+{
+    "overrides": {
+        "ios/media-offline.podspec": {
+            "s.dependency     'CryptoSwift', '1.0.0'": "s.dependency     'CryptoSwift', '1.4.0'"
+        }
+    }
+}

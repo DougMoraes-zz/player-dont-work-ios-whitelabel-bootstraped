@@ -1,0 +1,2888 @@
+{
+    "id": "PwjEHHkBSigUoUP1HyhY",
+    "name": "Smart Apps Duplicate",
+    "fonts": {
+        "S": {
+            "hero": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 34,
+                "character": 0,
+                "line": 40,
+                "transform": "none"
+            },
+            "h1": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 38,
+                "transform": "none"
+            },
+            "h2": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 24,
+                "character": 0,
+                "line": 32,
+                "transform": "none"
+            },
+            "h3": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 20,
+                "character": 0,
+                "line": 26,
+                "transform": "none"
+            },
+            "h4": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 21,
+                "transform": "none"
+            },
+            "h5": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 13,
+                "character": 0,
+                "line": 17,
+                "transform": "none"
+            },
+            "h6": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 12,
+                "character": 0,
+                "line": 16,
+                "transform": "capitalize"
+            },
+            "body1": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 24,
+                "transform": "none"
+            },
+            "body2": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 15,
+                "character": 0,
+                "line": 20,
+                "transform": "none"
+            },
+            "primaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 18,
+                "character": 0,
+                "line": 23,
+                "transform": "capitalize"
+            },
+            "secondaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 18,
+                "character": 0,
+                "line": 23,
+                "transform": "capitalize"
+            },
+            "tertiaryButton": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 14,
+                "character": 0,
+                "line": 18,
+                "transform": "none"
+            },
+            "menuItem-active": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 11,
+                "character": -0.3,
+                "line": 16,
+                "transform": "none"
+            },
+            "menuItem-inactive": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 11,
+                "character": 0,
+                "line": 16,
+                "transform": "none"
+            }
+        },
+        "M": {
+            "hero": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 48,
+                "character": 0,
+                "line": 60,
+                "transform": "none"
+            },
+            "h1": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 38,
+                "transform": "none"
+            },
+            "h2": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 24,
+                "character": 0,
+                "line": 28,
+                "transform": "none"
+            },
+            "h3": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 20,
+                "character": 0,
+                "line": 26,
+                "transform": "none"
+            },
+            "h4": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 21,
+                "transform": "none"
+            },
+            "h5": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 13,
+                "character": 0,
+                "line": 17,
+                "transform": "none"
+            },
+            "h6": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 12,
+                "character": 0,
+                "line": 16,
+                "transform": "capitalize"
+            },
+            "body1": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 24,
+                "transform": "none"
+            },
+            "body2": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 15,
+                "character": 0,
+                "line": 20,
+                "transform": "none"
+            },
+            "primaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 18,
+                "character": 0,
+                "line": 23,
+                "transform": "capitalize"
+            },
+            "secondaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 18,
+                "character": 0,
+                "line": 23,
+                "transform": "capitalize"
+            },
+            "tertiaryButton": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 14,
+                "character": 0,
+                "line": 18,
+                "transform": "none"
+            },
+            "menuItem-active": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 13,
+                "character": 0,
+                "line": 16,
+                "transform": "none"
+            },
+            "menuItem-inactive": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 13,
+                "character": 0,
+                "line": 16,
+                "transform": "none"
+            }
+        },
+        "L": {
+            "hero": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 64,
+                "character": 0,
+                "line": 79,
+                "transform": "none"
+            },
+            "h1": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 48,
+                "character": 0,
+                "line": 63,
+                "transform": "none"
+            },
+            "h2": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 42,
+                "transform": "none"
+            },
+            "h3": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 24,
+                "character": 0,
+                "line": 31,
+                "transform": "none"
+            },
+            "h4": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 18,
+                "character": 0,
+                "line": 23,
+                "transform": "none"
+            },
+            "h5": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 15,
+                "character": 0,
+                "line": 20,
+                "transform": "none"
+            },
+            "h6": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 13,
+                "character": 0,
+                "line": 17,
+                "transform": "capitalize"
+            },
+            "body1": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 18,
+                "character": 0,
+                "line": 25,
+                "transform": "none"
+            },
+            "body2": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 23,
+                "transform": "none"
+            },
+            "primaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 20,
+                "character": 0,
+                "line": 26,
+                "transform": "capitalize"
+            },
+            "secondaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 20,
+                "character": 0,
+                "line": 26,
+                "transform": "capitalize"
+            },
+            "tertiaryButton": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 21,
+                "transform": "none"
+            },
+            "menuItem-active": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 21,
+                "transform": "none"
+            },
+            "menuItem-inactive": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 16,
+                "character": 0,
+                "line": 21,
+                "transform": "none"
+            }
+        },
+        "XL": {
+            "hero": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 100,
+                "character": 0,
+                "line": 112,
+                "transform": "none"
+            },
+            "h1": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 80,
+                "character": 0,
+                "line": 104,
+                "transform": "none"
+            },
+            "h2": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 48,
+                "character": 0,
+                "line": 63,
+                "transform": "none"
+            },
+            "h3": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 39,
+                "character": 0,
+                "line": 51,
+                "transform": "none"
+            },
+            "h4": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 30,
+                "character": 0,
+                "line": 39,
+                "transform": "none"
+            },
+            "h5": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 24,
+                "character": 0,
+                "line": 31,
+                "transform": "none"
+            },
+            "h6": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 24,
+                "character": 0,
+                "line": 31,
+                "transform": "capitalize"
+            },
+            "body1": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 28,
+                "character": 0,
+                "line": 40,
+                "transform": "none"
+            },
+            "body2": {
+                "family": "HK Grotesk",
+                "weight": "500",
+                "style": "normal",
+                "size": 27,
+                "character": 0,
+                "line": 34,
+                "transform": "none"
+            },
+            "primaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 40,
+                "transform": "capitalize"
+            },
+            "secondaryButton": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 40,
+                "transform": "capitalize"
+            },
+            "tertiaryButton": {
+                "family": "HK Grotesk",
+                "weight": "600",
+                "style": "normal",
+                "size": 24,
+                "character": 0,
+                "line": 30,
+                "transform": "none"
+            },
+            "menuItem-active": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 42,
+                "transform": "uppercase"
+            },
+            "menuItem-inactive": {
+                "family": "HK Grotesk",
+                "weight": "700",
+                "style": "normal",
+                "size": 32,
+                "character": 0,
+                "line": 42,
+                "transform": "uppercase"
+            }
+        }
+    },
+    "elements": {
+        "clientLogo": {
+            "type": "image",
+            "value": "https://cdn.backstage-api.com?key=backstage-cms-production-uploads/3840x2160/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/theming/73a5df81-2fca-4e79-9710-ee1ef8454c43/3cf1c47d-6fa6-4d21-9af5-c140c4f92793-appIconTransparent-4k.png.png",
+            "label": "Logo"
+        },
+        "backgroundImage": {
+            "type": "image",
+            "value": null,
+            "label": "Background image"
+        },
+        "buttonPrimary-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "100px",
+            "label": "Primary corner radius"
+        },
+        "buttonSecondary-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "100px",
+            "label": "Secondary corner radius"
+        },
+        "buttonTertiary-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "100px",
+            "label": "Tertiary corner radius"
+        },
+        "generalTile-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "8px",
+            "label": "General corner radius"
+        },
+        "headerTile-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "8px",
+            "label": "Header corner radius"
+        },
+        "textField-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "100px",
+            "label": "Text corner radius"
+        },
+        "searchField-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "100px",
+            "label": "Search corner radius"
+        },
+        "pinField-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "8px",
+            "label": "PIN corner radius"
+        },
+        "epgItem-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "6px",
+            "label": "EPG corner radius"
+        },
+        "label-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "4px",
+            "label": "Label corner radius"
+        },
+        "progressBar-cornerRadius": {
+            "type": "cornerRadius",
+            "value": "100px",
+            "label": "Progress bar corner radius"
+        }
+    },
+    "icons": {
+        "player": {
+            "play": {
+                "iconFont": "materialIcons",
+                "iconName": "play-arrow"
+            },
+            "pause": {
+                "iconFont": "materialIcons",
+                "iconName": "pause"
+            },
+            "cast": {
+                "iconFont": "materialIcons",
+                "iconName": "cast"
+            },
+            "settings": {
+                "iconFont": "fontAwesome",
+                "iconName": "sliders"
+            },
+            "seekForward": {
+                "iconFont": "materialIcons",
+                "iconName": "replay-10"
+            },
+            "seekBackward": {
+                "iconFont": "materialIcons",
+                "iconName": "forward-10"
+            },
+            "pictureInPicture": {
+                "iconFont": "materialIcons",
+                "iconName": "picture-in-picture-alt"
+            },
+            "fullSchedule": {
+                "iconFont": "materialIcons",
+                "iconName": "dvr"
+            },
+            "fullscreen": {
+                "iconFont": "materialIcons",
+                "iconName": "fullscreen-exit"
+            },
+            "audioAndSubs": {
+                "iconFont": "materialIcons",
+                "iconName": "subtitles"
+            },
+            "moreEpisodes": {
+                "iconFont": "materialIcons",
+                "iconName": "burst-mode"
+            },
+            "previousEpisode": {
+                "iconFont": "materialIcons",
+                "iconName": "skip-previous"
+            },
+            "nextEpisode": {
+                "iconFont": "materialIcons",
+                "iconName": "skip-next"
+            },
+            "otherChannels": {
+                "iconFont": "materialIcons",
+                "iconName": "burst-mode"
+            },
+            "record": {
+                "iconFont": "materialIcons",
+                "iconName": "fiber-manual-record"
+            },
+            "startOver": {
+                "iconFont": "materialIcons",
+                "iconName": "replay"
+            },
+            "volumeUp": {
+                "iconFont": "materialIcons",
+                "iconName": "volume-up"
+            },
+            "volumeDown": {
+                "iconFont": "materialIcons",
+                "iconName": "volume-down"
+            },
+            "volumeOff": {
+                "iconFont": "materialIcons",
+                "iconName": "volume-off"
+            }
+        },
+        "settings": {
+            "back": {
+                "iconFont": "ionicons",
+                "iconName": "ios-arrow-back"
+            },
+            "checkmark": {
+                "iconFont": "antDesign",
+                "iconName": "check"
+            },
+            "chevronRight": {
+                "iconFont": "ionicons",
+                "iconName": "ios-arrow-forward"
+            },
+            "check": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "check"
+            },
+            "close": {
+                "iconFont": "antDesign",
+                "iconName": "close"
+            },
+            "iphone": {
+                "iconFont": "materialIcons",
+                "iconName": "phone-iphone"
+            },
+            "ipad": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "tablet-ipad"
+            },
+            "laptop": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "laptop"
+            },
+            "language": {
+                "iconFont": "materialIcons",
+                "iconName": "subtitles"
+            },
+            "info": {
+                "iconFont": "materialIcons",
+                "iconName": "info"
+            }
+        },
+        "search": {
+            "dropdownItem": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "clock-outline"
+            },
+            "input": {
+                "iconFont": "materialIcons",
+                "iconName": "search"
+            },
+            "clear": {
+                "iconFont": "materialIcons",
+                "iconName": "clear"
+            },
+            "cancel": {
+                "iconFont": "materialIcons",
+                "iconName": "cancel"
+            }
+        },
+        "details": {
+            "addToList": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "plus"
+            },
+            "removeFromList": {
+                "iconFont": "materialIcons",
+                "iconName": "check"
+            },
+            "record": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "record"
+            },
+            "share": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "share-variant"
+            },
+            "play": {
+                "iconFont": "materialIcons",
+                "iconName": "play-arrow"
+            },
+            "remind": {
+                "iconFont": "materialIcons",
+                "iconName": "alarm-add"
+            }
+        },
+        "myContent": {
+            "myList": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "plus"
+            },
+            "downloads": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "cellphone-arrow-down"
+            },
+            "recordings": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "record"
+            },
+            "purchases": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "credit-card"
+            },
+            "reminders": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "alarm-check"
+            },
+            "recentlyWatched": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "history"
+            },
+            "pencil": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "pencil"
+            },
+            "trash": {
+                "iconFont": "ionicons",
+                "iconName": "md-trash"
+            }
+        },
+        "auth": {
+            "incorrect": {
+                "iconFont": "antDesign",
+                "iconName": "exclamationcircle"
+            }
+        },
+        "packshot": {
+            "moreInfo": {
+                "iconFont": "ionicons",
+                "iconName": "ios-information-circle-outline"
+            },
+            "play": {
+                "iconFont": "materialIcons",
+                "iconName": "play-arrow"
+            },
+            "check": {
+                "iconFont": "materialIcons",
+                "iconName": "check"
+            },
+            "delete": {
+                "iconFont": "materialIcons",
+                "iconName": "delete"
+            },
+            "cancel": {
+                "iconFont": "materialIcons",
+                "iconName": "clear"
+            }
+        },
+        "epg": {
+            "chevronRight": {
+                "iconFont": "materialIcons",
+                "iconName": "chevron-right"
+            },
+            "portraitChannelView": {
+                "iconImage": 4
+            },
+            "portraitTimeView": {
+                "iconImage": 5
+            },
+            "filter": {
+                "iconFont": "materialIcons",
+                "iconName": "list"
+            }
+        },
+        "common": {
+            "modalClose": {
+                "iconFont": "materialIcons",
+                "iconName": "close"
+            },
+            "dropdownExpand": {
+                "iconFont": "materialIcons",
+                "iconName": "expand-more"
+            }
+        },
+        "about": {
+            "buttonIcon": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "exit-to-app"
+            }
+        },
+        "pinControl": {
+            "checkmark": {
+                "iconFont": "fontAwesome",
+                "iconName": "check"
+            },
+            "backspace": {
+                "iconFont": "materialIcons",
+                "iconName": "backspace"
+            }
+        },
+        "account": {
+            "user": {
+                "iconFont": "materialIcons",
+                "iconName": "person"
+            },
+            "subscriptions": {
+                "iconFont": "materialIcons",
+                "iconName": "credit-card"
+            },
+            "parentalControl": {
+                "iconFont": "materialIcons",
+                "iconName": "face"
+            },
+            "signin": {
+                "iconFont": "materialIcons",
+                "iconName": "login"
+            },
+            "devices": {
+                "iconFont": "materialCommunityIcons",
+                "iconName": "devices"
+            }
+        },
+        "chromecast": {
+            "tv": {
+                "iconFont": "materialIcons",
+                "iconName": "tv"
+            },
+            "volumeUp": {
+                "iconFont": "materialIcons",
+                "iconName": "volume-up"
+            },
+            "volumeOff": {
+                "iconFont": "materialIcons",
+                "iconName": "volume-off"
+            },
+            "volumeDown": {
+                "iconFont": "materialIcons",
+                "iconName": "volume-down"
+            },
+            "castConnected": {
+                "iconFont": "materialIcons",
+                "iconName": "cast-connected"
+            },
+            "skipPrev": {
+                "iconFont": "materialIcons",
+                "iconName": "skip-previous"
+            }
+        },
+        "onPrimary-back": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-back.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-back_rtl": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-back_rtl.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-overflow": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-overflow.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-select": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-select.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-share": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-share.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-confirm": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-confirm.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-close": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-close.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-airplay": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-airplay.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-chromecast": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-chromecast.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-chromecast_connected": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-chromecast_connected.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-filter": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-filter.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-spinner": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-spinner.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-subpage": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-subpage.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-subpage_rtl": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-subpage_rtl.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-clear": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-clear.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-delete": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-delete.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-seeAll": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-seeAll.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-rating": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-rating.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-expiration": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-expiration.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-error": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-error.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_tv": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_tv.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_laptop": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_laptop.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_tablet": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_tablet.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_smartphone": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_smartphone.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_smartwatch": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_smartwatch.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_family": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_family.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-device_gameConsole": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-device_gameConsole.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-scroll_up": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-scroll_up.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-scroll_down": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-scroll_down.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-field_search": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-field_search.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-field_clear": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-field_clear.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onPrimary-signOut": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onPrimary-signOut.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-back": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-back.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-back_rtl": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-back_rtl.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-overflow": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-overflow.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-select": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-select.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-share": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-share.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-confirm": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-confirm.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-close": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-close.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-airplay": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-airplay.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-chromecast": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-chromecast.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-chromecast_connected": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-chromecast_connected.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-filter": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-filter.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_play": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_play.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_pause": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_pause.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_stop": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_stop.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_upsell": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_upsell.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_info": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_info.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_rewind": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_rewind.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_fastForward": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_fastForward.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_skipPrevious": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_skipPrevious.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_skipNext": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_skipNext.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_replay10": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_replay10.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_forward10": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_forward10.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_volume_mute": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_volume_mute.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_volume_down": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_volume_down.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_volume_up": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_volume_up.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-control_volume_off": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-control_volume_off.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-fullscreen": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-fullscreen.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-fullscreen_exit": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-fullscreen_exit.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-pictureInPicture": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-pictureInPicture.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-subtitles": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-subtitles.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-settings": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-settings.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-record": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-record.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-recordMultiple": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-recordMultiple.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-record_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-record_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-recordMultiple_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-recordMultiple_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-tvGuide": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-tvGuide.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-catchup": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-catchup.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-backToLive": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-backToLive.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-allChannels": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-allChannels.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-allEpisodes": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-allEpisodes.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onDark-rating": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onDark-rating.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-play": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-play.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-record": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-record.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-recordMultiple": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-recordMultiple.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-record_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-record_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-recordMultiple_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-recordMultiple_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-purchase": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-purchase.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-rent": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-rent.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-upsell": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-upsell.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-purchase_multipleOptions": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-purchase_multipleOptions.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonPrimary-locked": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonPrimary-locked.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-startOver": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-startOver.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-record": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-record.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-recordMultiple": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-recordMultiple.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-record_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-record_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-recordMultiple_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-recordMultiple_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-watchlist_add": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-watchlist_add.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-watchlist_added": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-watchlist_added.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-reminder_add": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-reminder_add.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-reminder_added": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-reminder_added.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-share": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-share.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-download": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-download.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonSecondary-info": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonSecondary-info.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-startOver": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-startOver.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-record": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-record.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-recordMultiple": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-recordMultiple.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-record_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-record_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-recordMultiple_cancel": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-recordMultiple_cancel.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-watchlist_add": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-watchlist_add.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-watchlist_added": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-watchlist_added.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-reminder_add": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-reminder_add.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-reminder_added": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-reminder_added.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-share": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-share.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-download": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-download.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onButtonTertiary-info": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onButtonTertiary-info.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onTileMainButton-play": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onTileMainButton-play.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onTileMainButton-edit": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onTileMainButton-edit.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onLabel-catchup": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onLabel-catchup.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onLabel-record": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onLabel-record.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onLabel-recordMultiple": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onLabel-recordMultiple.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onLabel-reminder": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onLabel-reminder.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "onLabel-locked": {
+            "width": 24,
+            "height": 24,
+            "svg": [
+                {
+                    "path": "onLabel-locked.svg",
+                    "density": 1
+                }
+            ]
+        },
+        "menu": {
+            "navbarFont": "fontAwesome",
+            "more": {
+                "iconFont": "fontAwesome",
+                "iconName": "bars"
+            },
+            "forward": {
+                "iconFont": "fontAwesome",
+                "iconName": "chevron-right"
+            },
+            "back": {
+                "iconFont": "materialIcons",
+                "iconName": "chevron-left"
+            },
+            "menuScrollUp": {
+                "iconFont": "fontAwesome",
+                "iconName": "chevron-up"
+            },
+            "menuScrollDown": {
+                "iconFont": "fontAwesome",
+                "iconName": "chevron-down"
+            },
+            "iconsMap": {
+                "dashboard": {
+                    "name": "home",
+                    "font": "fontAwesome"
+                },
+                "new-movies": {
+                    "name": "film",
+                    "font": "fontAwesome"
+                },
+                "live-tv": {
+                    "name": "tv",
+                    "font": "fontAwesome"
+                },
+                "search": {
+                    "name": "search",
+                    "font": "fontAwesome"
+                },
+                "rewind-2": {
+                    "name": "history",
+                    "font": "fontAwesome"
+                },
+                "settings": {
+                    "name": "cog",
+                    "font": "fontAwesome"
+                },
+                "account": {
+                    "name": "user",
+                    "font": "fontAwesome"
+                },
+                "play-button": {
+                    "name": "play-circle",
+                    "font": "fontAwesome"
+                },
+                "series": {
+                    "name": "square",
+                    "font": "fontAwesome"
+                },
+                "menu": {
+                    "name": "bars",
+                    "font": "fontAwesome"
+                },
+                "guide": {
+                    "name": "list",
+                    "font": "fontAwesome"
+                },
+                "all-movies": {
+                    "name": "film",
+                    "font": "fontAwesome"
+                },
+                "mail": {
+                    "name": "envelope",
+                    "font": "fontAwesome"
+                },
+                "no-notifications": {
+                    "name": "volume-off",
+                    "font": "fontAwesome"
+                },
+                "notifications": {
+                    "name": "volume-up",
+                    "font": "fontAwesome"
+                },
+                "clock": {
+                    "name": "clock-o",
+                    "font": "fontAwesome"
+                },
+                "lock-disabled": {
+                    "name": "unlock-alt",
+                    "font": "fontAwesome"
+                },
+                "record": {
+                    "name": "circle",
+                    "font": "fontAwesome"
+                },
+                "min": {
+                    "name": "minus-circle",
+                    "font": "fontAwesome"
+                },
+                "plus": {
+                    "name": "plus-circle",
+                    "font": "fontAwesome"
+                },
+                "cross": {
+                    "name": "remove",
+                    "font": "fontAwesome"
+                },
+                "rewind-1": {
+                    "name": "backward",
+                    "font": "fontAwesome"
+                },
+                "fast-forward": {
+                    "name": "forward",
+                    "font": "fontAwesome"
+                },
+                "share": {
+                    "name": "share-alt-square",
+                    "font": "fontAwesome"
+                },
+                "subs": {
+                    "name": "warning",
+                    "font": "fontAwesome"
+                },
+                "chat": {
+                    "name": "wechat",
+                    "font": "fontAwesome"
+                },
+                "episode-selector": {
+                    "name": "warning",
+                    "font": "fontAwesome"
+                },
+                "star": {
+                    "name": "star-o",
+                    "font": "fontAwesome"
+                },
+                "star-full": {
+                    "name": "star",
+                    "font": "fontAwesome"
+                },
+                "circle": {
+                    "name": "circle-o",
+                    "font": "fontAwesome"
+                },
+                "circle-full": {
+                    "name": "circle",
+                    "font": "fontAwesome"
+                },
+                "stop-watching": {
+                    "name": "eye-slash",
+                    "font": "fontAwesome"
+                },
+                "info": {
+                    "name": "info-circle",
+                    "font": "fontAwesome"
+                },
+                "record-1": {
+                    "name": "warning",
+                    "font": "fontAwesome"
+                },
+                "record-2": {
+                    "name": "warning",
+                    "font": "fontAwesome"
+                },
+                "record-3": {
+                    "name": "warning",
+                    "font": "fontAwesome"
+                },
+                "record-4": {
+                    "name": "circle",
+                    "font": "fontAwesome"
+                },
+                "half-moon": {
+                    "name": "moon-o",
+                    "font": "fontAwesome"
+                },
+                "space": {
+                    "name": "window-minimize",
+                    "font": "fontAwesome"
+                },
+                "signout": {
+                    "name": "sign-out",
+                    "font": "fontAwesome"
+                },
+                "backspace": {
+                    "name": "window-close",
+                    "font": "fontAwesome"
+                },
+                "network-off": {
+                    "name": "warning",
+                    "font": "fontAwesome"
+                },
+                "bars": {
+                    "name": "bars",
+                    "font": "fontAwesome"
+                },
+                "heart": {
+                    "name": "heart",
+                    "font": "fontAwesome"
+                },
+                "sign-in": {
+                    "name": "sign-in",
+                    "font": "fontAwesome"
+                },
+                "angle-down": {
+                    "name": "angle-down",
+                    "font": "fontAwesome"
+                },
+                "search-new": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/2aa2f978-e48c-45ea-ba36-2d6293563235-search-new.png"
+                },
+                "zero": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/07d4946f-9dff-4fb4-ae3c-3ed02ba6a0a0-zero.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/bf772252-f338-4bd7-910d-f0ee32c4b765-zero_bkstgState_active.png"
+                },
+                "m": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/f54e1365-98e1-4bd8-9523-29f7c8a368b3-m.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/580138d5-81e7-4e3b-a0d9-f2b979774571-m_bkstgState_active.png"
+                },
+                "letter": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/e6caafd4-c221-4c2a-b176-815f4c50b21d-letter.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/9fd8a5c3-80c8-41d9-ac7c-8fa3e1ce79ff-letter_bkstgState_active.png"
+                },
+                "letter-r": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/8c9c84b0-99c4-4550-b271-3c81c1b24978-letter-r.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/52298cbe-2c74-412e-8764-825263ca5c8d-letter-r_bkstgState_active.png"
+                },
+                "letter-a": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/7197b26f-74fe-45aa-aea0-f5bf4b939bb9-letter-a.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/4b0b0ce5-e1cd-41a9-ac90-8430d1c773e0-letter-a_bkstgState_active.png"
+                },
+                "font": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/462540b2-351a-40fc-9d9d-8deb9d791a63-font.png"
+                },
+                "iconfinder_Rounded_-_High_Ultra_Colour05_-_Television_2250027": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/24e0e539-a29b-4924-9607-8ecf4204a6f9-iconfinder_Rounded_-_High_Ultra_Colour05_-_Television_2250027.png"
+                },
+                "iconfinder_Search_3069190": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/a8abc4cc-68fd-4568-be07-de9e1e0ad773-iconfinder_Search_3069190.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/13eb2413-2c37-4e55-a78f-da84753f84b4-iconfinder_Search_3069190_bkstgState_active.png"
+                },
+                "iconfinder_filmreel_1055062": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/0896fc59-2cdd-48bf-83dd-349a8642572a-iconfinder_filmreel_1055062.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/83864ebd-63f5-4216-9aec-57c1ac69d2df-iconfinder_filmreel_1055062_bkstgState_active.png"
+                },
+                "iconfinder_youtube-live-video-webinar-conference_3993869": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/bd470385-8a44-4155-a06b-3ba5a39cfe1f-iconfinder_youtube-live-video-webinar-conference_3993869.png"
+                },
+                "iconfinder_house_384890": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/9e28d0d1-d940-4ac8-8d3f-0a991a871f33-iconfinder_house_384890.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/603da5d8-cc5a-4e06-b61f-f7533fbb49e8-iconfinder_house_384890_bkstgState_active.png"
+                },
+                "icons8-settings": {
+                    "size": {
+                        "width": 128,
+                        "height": 128
+                    },
+                    "uri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/0f7c7ee1-bfcb-4029-b6fb-af3a8f7c0069-icons8-settings.png",
+                    "activeUri": "https://cdn.backstage-api.com/?key=backstage-cms-production-uploads/5e0ad1b0-515e-11e9-a7ed-371ac744bd33/icons-sets/svg/128x128/09ef0ff8-38e8-4b42-9d41-8fd0aa309a07-icons8-settings_bkstgState_active.png"
+                }
+            }
+        }
+    },
+    "logo": null,
+    "backgroundImage": null,
+    "color": {
+        "background1": "#2a2a2a",
+        "primary1": "rgba(62, 61, 64, 1)",
+        "primary2": "rgba(62, 61, 64, 0.8)",
+        "primary3": "rgba(62, 61, 64, 0.6)",
+        "primary4": "rgba(62, 61, 64, 0.3)",
+        "primaryBlur1": {
+            "type": "backgroundBlur",
+            "color": "rgba(62, 61, 64, 0.8)",
+            "blur": 30
+        },
+        "primaryBlur1Fallback": "rgba(62, 61, 64, 0.9)",
+        "primaryBlur2": {
+            "type": "backgroundBlur",
+            "color": "rgba(62, 61, 64, 0.3)",
+            "blur": 20
+        },
+        "primaryBlur2Fallback": "rgba(62, 61, 64, 0.6)",
+        "lighter1": "rgba(97, 98, 100, 1)",
+        "lighter2": "rgba(97, 98, 100, 0.8)",
+        "lighter3": "rgba(97, 98, 100, 0.6)",
+        "lighter4": "rgba(97, 98, 100, 0.3)",
+        "lighterBlur1": {
+            "type": "backgroundBlur",
+            "color": "rgba(97, 98, 100, 0.8)",
+            "blur": 16
+        },
+        "lighterBlur1Fallback": "rgba(97, 98, 100, 0.9)",
+        "lighterBlur2": {
+            "type": "backgroundBlur",
+            "color": "rgba(97, 98, 100, 0.4)",
+            "blur": 16
+        },
+        "lighterBlur2Fallback": "rgba(97, 98, 100, 0.6)",
+        "darker1": "rgba(31, 31, 31, 1)",
+        "darker2": "rgba(31, 31, 31, 0.8)",
+        "darker3": "rgba(31, 31, 31, 0.6)",
+        "darker4": "rgba(31, 31, 31, 0.3)",
+        "darkerBlur1": {
+            "type": "backgroundBlur",
+            "color": "rgba(31, 31, 31, 0.75)",
+            "blur": 30
+        },
+        "darkerBlur1Fallback": "rgba(31, 31, 31, 0.9)",
+        "darkerBlur2": {
+            "type": "backgroundBlur",
+            "color": "rgba(31, 31, 31, 0.3)",
+            "blur": 16
+        },
+        "darkerBlur2Fallback": "rgba(31, 31, 31, 0.6)",
+        "contrast1": "rgba(247, 247, 247, 1)",
+        "contrast2": "rgba(247, 247, 247, 0.8)",
+        "contrast3": "rgba(247, 247, 247, 0.6)",
+        "contrast4": "rgba(247, 247, 247, 0.3)",
+        "contrastBlur1": {
+            "type": "backgroundBlur",
+            "color": "rgba(247, 247, 247, 0.8)",
+            "blur": 20
+        },
+        "contrastBlur1Fallback": "rgba(247, 247, 247, 0.9)",
+        "contrastBlur2": {
+            "type": "backgroundBlur",
+            "color": "rgba(247, 247, 247, 0.4)",
+            "blur": 20
+        },
+        "contrastBlur2Fallback": "rgba(247, 247, 247, 0.6)",
+        "gradient1": {
+            "colors": [
+                "rgba(0, 0, 0, 0)",
+                "rgba(0, 0, 1, 1)"
+            ],
+            "percentages": [
+                0,
+                1
+            ]
+        },
+        "gradient2": {
+            "colors": [
+                "rgba(0, 0, 0, 0.7)",
+                "rgba(0, 0, 0, 0)"
+            ],
+            "percentages": [
+                0,
+                1
+            ]
+        },
+        "gradient3": {
+            "colors": [
+                "rgba(0, 0, 0, 0)",
+                "rgba(0, 0, 0, 0.4)"
+            ],
+            "percentages": [
+                0,
+                1
+            ]
+        },
+        "error": "#c73600",
+        "warning": "#ef9e00",
+        "success": "rgba(0, 148, 0, 1)",
+        "textPrimary": "#ffffff",
+        "textSecondary": "#ffffff",
+        "textButtonPrimary": "#000000",
+        "textButtonSecondary": "#ffffff",
+        "textButtonTertiary": "#ffffff",
+        "buttonPrimary": "rgba(250, 188, 11, 1)",
+        "buttonSecondary": "rgba(97, 98, 100, 0.85)",
+        "buttonTertiary": "rgba(97, 98, 100, 0.6)",
+        "labelPrimary": "rgba(255, 255, 255, 0.3)",
+        "labelSecondary": "rgba(255, 255, 255, 0.3)",
+        "progressBarAccent": "#ffffff",
+        "progressBarLive": "rgba(0, 173, 221, 1)",
+        "progressBarBackground": "rgba(255, 255, 255, 0.3)",
+        "menuItemActive": "#ffffff",
+        "menuItemInactive": "rgba(255, 255, 255, 0.6)",
+        "menuFocus": "rgba(255, 255, 255, 0.18)",
+        "tileMainButton": "rgba(31, 31, 31, 0.25)",
+        "epgRowActive": "rgba(88, 193, 245, 1)",
+        "epgRowInactive": "rgba(255, 255, 255, 0.1)",
+        "epgRowActiveWhole": "rgba(88, 193, 245, 1)",
+        "epgRowActivePassed": "#FFD0D019",
+        "epgTop": "rgba(42, 42, 42, 1)",
+        "epgSide": "rgba(42, 42, 42, 1)",
+        "epgBackground": "rgba(42, 42, 42, 1)",
+        "statusBarTheme": "light-content"
+    },
+    "components": {
+        "EpgLandscape": {
+            "PIXELS_PER_MIN": 18,
+            "VISIBLE_CHUNK_SIZE_VIEWPORTS": 2,
+            "currentTimeUpdateInterval": 60,
+            "grid": {
+                "backgroundColor": "#00ffffff"
+            },
+            "cell": {
+                "container": {
+                    "backgroundColor": "#19ffffff",
+                    "borderRadius": 6,
+                    "height": 60,
+                    "paddingHorizontal": 15,
+                    "borderStyle": "solid",
+                    "borderWidth": 3,
+                    "borderColor": "#2a2a2a"
+                },
+                "activeContainer": {
+                    "backgroundColor": "#58c1f5"
+                },
+                "activePassedContainer": {
+                    "borderRadius": 6,
+                    "backgroundColor": "#FFD0D019"
+                },
+                "title": {
+                    "fontFamily": "HK Grotesk Medium",
+                    "fontSize": 16,
+                    "letterSpacing": 0,
+                    "fontStyle": "normal",
+                    "lineHeight": 24,
+                    "fontWeight": "bold",
+                    "color": "#ffffff",
+                    "width": "90%"
+                },
+                "infoContainer": {
+                    "flexDirection": "column",
+                    "width": "100%",
+                    "paddingHorizontal": 18
+                },
+                "titleContainerWithIcon": {
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "width": "100%",
+                    "justifyContent": "space-between"
+                },
+                "iconContainer": {
+                    "backgroundColor": "#717171",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "width": 18,
+                    "height": 18,
+                    "marginRight": 2
+                },
+                "icon": {
+                    "width": 15,
+                    "height": 15
+                },
+                "lockedTitle": {
+                    "color": "#7d7d7d"
+                },
+                "description": {
+                    "color": "#99ffffff",
+                    "fontFamily": "HK Grotesk Bold",
+                    "fontSize": 12,
+                    "letterSpacing": 0,
+                    "fontStyle": "normal",
+                    "lineHeight": 16,
+                    "fontWeight": "bold"
+                }
+            },
+            "sidebar": {
+                "container": {
+                    "width": 125,
+                    "backgroundColor": "#2a2a2a",
+                    "shadowColor": "rgba(0,0,0, 0.42)",
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 12
+                    },
+                    "shadowRadius": 16,
+                    "elevation": 24
+                },
+                "logo": {
+                    "borderRadius": 4,
+                    "width": 50,
+                    "height": 27
+                }
+            },
+            "timeline": {
+                "container": {
+                    "backgroundColor": "#2a2a2a",
+                    "borderBottomWidth": 0.5,
+                    "borderStyle": "solid",
+                    "borderBottomColor": "#0dffffff",
+                    "height": 30
+                },
+                "text": {
+                    "color": "#ffffff",
+                    "fontFamily": "HK Grotesk Bold",
+                    "fontSize": 12,
+                    "letterSpacing": 0,
+                    "fontStyle": "normal",
+                    "lineHeight": 16,
+                    "fontWeight": "bold"
+                }
+            },
+            "currentTime": {
+                "line": {
+                    "backgroundColor": "#D0021B",
+                    "width": 0
+                },
+                "label": {
+                    "backgroundColor": "#D0021B",
+                    "borderRadius": 4,
+                    "height": "70%",
+                    "top": "15%",
+                    "width": 56,
+                    "shadowColor": "rgba(0,0,0, 0.36)",
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 5
+                    },
+                    "shadowRadius": 6.68,
+                    "elevation": 11
+                },
+                "labelText": {
+                    "color": "#ffffff",
+                    "fontFamily": "HK Grotesk Bold",
+                    "fontSize": 12,
+                    "letterSpacing": 0,
+                    "fontStyle": "normal",
+                    "lineHeight": 16,
+                    "fontWeight": "bold",
+                    "textAlign": "center",
+                    "width": "100%"
+                }
+            }
+        },
+        "EpgPortrait": {
+            "currentTimeUpdateInterval": 60,
+            "topTabBar": {
+                "container": {
+                    "backgroundColor": "black",
+                    "height": 65,
+                    "paddingTop": 16
+                },
+                "tab": {
+                    "container": {
+                        "backgroundColor": "black",
+                        "borderBottomWidth": 2,
+                        "borderBottomColor": "transparent",
+                        "borderStyle": "solid",
+                        "paddingLeft": 0,
+                        "paddingRight": 0
+                    },
+                    "text": {
+                        "color": "#a4a4a4",
+                        "fontSize": 17,
+                        "fontWeight": "400"
+                    }
+                },
+                "activeTab": {
+                    "container": {
+                        "borderBottomColor": "#fff"
+                    },
+                    "text": {
+                        "color": "#fff",
+                        "fontWeight": "700"
+                    }
+                }
+            },
+            "scrollableTabBar": {
+                "container": {
+                    "backgroundColor": "rgba(42, 42, 42, 1)",
+                    "height": 56.5
+                },
+                "tab": {
+                    "timeTabWidth": 100,
+                    "channelTabWidth": 90,
+                    "container": {
+                        "backgroundColor": "transparent",
+                        "paddingLeft": 0,
+                        "paddingRight": 0
+                    },
+                    "channelContainer": {
+                        "backgroundColor": "transparent"
+                    },
+                    "text": {
+                        "color": "#ffffff66",
+                        "fontSize": 20,
+                        "fontWeight": "700"
+                    },
+                    "logo": {
+                        "width": 50,
+                        "height": 27,
+                        "borderRadius": 4,
+                        "opacity": 0.4
+                    }
+                },
+                "activeTab": {
+                    "container": {},
+                    "text": {
+                        "color": "#ffffff"
+                    },
+                    "logo": {
+                        "opacity": 1
+                    }
+                }
+            },
+            "scrollView": {
+                "paddingTop": 15,
+                "paddingBottom": 15
+            },
+            "row": {
+                "container": {
+                    "height": 68,
+                    "backgroundColor": "transparent",
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 10
+                },
+                "logo": {
+                    "container": {
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "width": 50,
+                        "height": "100%"
+                    },
+                    "img": {
+                        "width": 50,
+                        "height": "100%"
+                    }
+                },
+                "startTime": {
+                    "container": {
+                        "alignSelf": "flex-start"
+                    },
+                    "text": {
+                        "fontWeight": "400",
+                        "fontSize": 24,
+                        "width": 64
+                    }
+                },
+                "infoContainer": {
+                    "flexDirection": "column",
+                    "width": "100%",
+                    "paddingHorizontal": 18
+                },
+                "titleContainerWithIcon": {
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "width": "85%"
+                },
+                "icon": {
+                    "width": 25,
+                    "height": 25
+                },
+                "title": {
+                    "fontWeight": "400",
+                    "fontSize": 24
+                },
+                "lockedTitle": {
+                    "color": "#7d7d7d"
+                },
+                "description": {
+                    "fontSize": 18,
+                    "fontWeight": "400"
+                },
+                "timeElapsedLine": {
+                    "container": {
+                        "height": 1,
+                        "marginVertical": 8
+                    },
+                    "inactiveColor": "rgba(255,255,255,0.3)"
+                }
+            }
+        },
+        "EpgTablet": {
+            "PIXELS_PER_MIN": 10,
+            "VISIBLE_CHUNK_SIZE_VIEWPORTS": 2,
+            "currentTimeUpdateInterval": 60,
+            "grid": {
+                "backgroundColor": "#00ffffff"
+            },
+            "cell": {
+                "container": {
+                    "backgroundColor": "#19ffffff",
+                    "borderRadius": 6,
+                    "height": 60,
+                    "paddingHorizontal": 15,
+                    "borderStyle": "solid",
+                    "borderWidth": 3,
+                    "borderColor": "#2a2a2a"
+                },
+                "activeContainer": {
+                    "backgroundColor": "#58c1f5"
+                },
+                "activePassedContainer": {
+                    "borderRadius": 6,
+                    "backgroundColor": "#FFD0D019"
+                },
+                "focused": {
+                    "backgroundColor": "#D0021B"
+                },
+                "title": {
+                    "fontWeight": "bold",
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "color": "#ffffff",
+                    "width": "90%"
+                },
+                "infoContainer": {
+                    "flexDirection": "column",
+                    "width": "100%",
+                    "paddingHorizontal": 18
+                },
+                "titleContainerWithIcon": {
+                    "flexDirection": "row",
+                    "alignItems": "center",
+                    "width": "100%",
+                    "justifyContent": "space-between"
+                },
+                "iconContainer": {
+                    "backgroundColor": "#717171",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "width": 18,
+                    "height": 18,
+                    "marginRight": 2
+                },
+                "icon": {
+                    "width": 15,
+                    "height": 15
+                },
+                "lockedTitle": {
+                    "color": "#7d7d7d"
+                },
+                "description": {
+                    "color": "#99ffffff",
+                    "fontSize": 12,
+                    "lineHeight": 16,
+                    "fontWeight": "bold"
+                }
+            },
+            "sidebar": {
+                "container": {
+                    "width": 125,
+                    "backgroundColor": "#2a2a2a",
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 12
+                    },
+                    "shadowColor": "rgba(0,0,0, 0.42)",
+                    "shadowRadius": 16,
+                    "elevation": 24
+                },
+                "logo": {
+                    "borderRadius": 4,
+                    "width": 50,
+                    "height": 27
+                }
+            },
+            "timeline": {
+                "container": {
+                    "backgroundColor": "#2a2a2a",
+                    "borderBottomWidth": 0.5,
+                    "borderStyle": "solid",
+                    "borderBottomColor": "#0dffffff",
+                    "height": 48
+                },
+                "text": {
+                    "color": "#ffffff",
+                    "fontSize": 12,
+                    "fontWeight": "bold",
+                    "lineHeight": 16
+                }
+            },
+            "currentTime": {
+                "line": {
+                    "backgroundColor": "#D0021B",
+                    "width": 0
+                },
+                "label": {
+                    "backgroundColor": "#D0021B",
+                    "borderRadius": 4,
+                    "height": "70%",
+                    "width": 56,
+                    "shadowColor": "rgba(0,0,0, 0.36)",
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 5
+                    },
+                    "shadowRadius": 6.68,
+                    "elevation": 11
+                },
+                "labelText": {
+                    "color": "#ffffff",
+                    "fontSize": 12,
+                    "fontWeight": "bold",
+                    "lineHeight": 16,
+                    "textAlign": "center",
+                    "width": "100%"
+                }
+            }
+        },
+        "Epg": {}
+    }
+}

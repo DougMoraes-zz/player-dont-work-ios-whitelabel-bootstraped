@@ -1,0 +1,195 @@
+{
+    "extend": "base",
+    "id": "whitelabel",
+    "common": {
+        "id": "com.mycompany.playbackscreen_morerecent",
+        "description": "24i Smart OTT Whitelabel Template",
+        "title": "Hello Renative",
+        "excludedPlugins": [
+            "suitest",
+            "@react-native-firebase/app",
+            "@react-native-firebase/analytics",
+            "@react-native-firebase/crashlytics"
+        ]
+    },
+    "platforms": {
+        "ios": {
+            "entryFile": "index.ios",
+            "plist": {
+                "CFBundleURLTypes": [
+                    {
+                        "CFBundleTypeRole": "Editor",
+                        "CFBundleURLSchemes": [
+                            "smartott"
+                        ]
+                    }
+                ],
+                "ITSAppUsesNonExemptEncryption": false
+            },
+            "buildSchemes": {
+                "debug": {
+                    "title": "Whitelabel Debug",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.debug"
+                },
+                "alpha": {
+                    "appleId": "1488914984",
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha",
+                    "provisioningStyle": "Manual",
+                    "codeSignIdentity": "Apple Distribution",
+                    "provisionProfileSpecifier": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha AppStore",
+                    "exportOptions": {
+                        "method": "app-store",
+                        "provisioningProfiles": {
+                            "com.twentyfouri.nxg.whitelabel.template.smartott.alpha": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha AppStore"
+                        }
+                    }
+                },
+                "alpha-adhoc": {
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha",
+                    "runScheme": "Release",
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true,
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "provisioningStyle": "Manual",
+                    "codeSignIdentity": "Apple Distribution",
+                    "provisionProfileSpecifier": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha AdHoc",
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {
+                            "com.twentyfouri.nxg.whitelabel.template.smartott.alpha": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha AdHoc"
+                        }
+                    },
+                    "ext": {
+                        "firebase": {
+                            "firebaseId": "1:391571502786:ios:f3d25ade0df2fae54bed5b"
+                        }
+                    }
+                },
+                "alphaAuto": {
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha"
+                },
+                "prod": {
+                    "appleId": "1478798665",
+                    "provisioningStyle": "Manual",
+                    "provisionProfileSpecifier": "com.twentyfouri.nxg.whitelabel.template.smartott AppStore",
+                    "codeSignIdentity": "Apple Distribution",
+                    "exportOptions": {
+                        "method": "app-store",
+                        "provisioningProfiles": {
+                            "com.twentyfouri.nxg.whitelabel.template.smartott": "com.twentyfouri.nxg.whitelabel.template.smartott AppStore"
+                        }
+                    }
+                },
+                "prod-adhoc": {
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott",
+                    "provisioningStyle": "Manual",
+                    "provisionProfileSpecifier": "com.twentyfouri.nxg.whitelabel.template.smartott AdHoc",
+                    "codeSignIdentity": "Apple Distribution",
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {
+                            "com.twentyfouri.nxg.whitelabel.template.smartott": "com.twentyfouri.nxg.whitelabel.template.smartott AdHoc"
+                        }
+                    },
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true,
+                    "ext": {
+                        "firebase": {
+                            "firebaseId": "1:391571502786:ios:1d69712301023ee24bed5b"
+                        }
+                    }
+                },
+                "appstoreAuto": {
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott"
+                }
+            }
+        },
+        "android": {
+            "entryFile": "index.android",
+            "buildSchemes": {
+                "debug": {
+                    "title": "Whitelabel Debug",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.debug"
+                },
+                "alpha": {
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha",
+                    "ext": {
+                        "firebase": {
+                            "firebaseId": "1:391571502786:android:68c7d681960c1b0f4bed5b"
+                        },
+                        "play": {}
+                    }
+                },
+                "prod": {
+                    "title": "Whitelabel",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha",
+                    "ext": {
+                        "firebase": {
+                            "firebaseId": "1:391571502786:android:74e2396b7ce0e9a94bed5b"
+                        },
+                        "play": {}
+                    }
+                }
+            }
+        },
+        "web": {
+            "pagesDir": "src/whitelabel/pages",
+            "buildSchemes": {
+                "canary": {
+                    "ext": {
+                        "aws": {
+                            "ecr": "448351264582.dkr.ecr.eu-central-1.amazonaws.com/nxg-web-canary",
+                            "deployHook": "https://admin.nxg-staging.24i.customer.cloud.nl/jenkins/",
+                            "region": "eu-central-1",
+                            "url": "https://canary.web.nxg.staging.24imedia.com",
+                            "deploymentTokenKey": "staging"
+                        },
+                        "vercel": {
+                            "projectName": "smartapps-smartott-whitelabel-canary",
+                            "url": "https://smartapps-smartott-whitelabel-canary.vercel.app"
+                        }
+                    }
+                },
+                "alpha": {
+                    "ext": {
+                        "aws": {
+                            "ecr": "448351264582.dkr.ecr.eu-central-1.amazonaws.com/nxg-web-prod",
+                            "deployHook": "https://admin.nxg-prod-eu.24i.customer.cloud.nl/jenkins/",
+                            "region": "eu-central-1",
+                            "url": "https://canary.web.nxg.test.24imedia.com",
+                            "deploymentTokenKey": "test"
+                        },
+                        "vercel": {
+                            "projectName": "smartapps-smartott-whitelabel-alpha",
+                            "url": "https://smartapps-smartott-whitelabel-alpha.vercel.app"
+                        }
+                    }
+                },
+                "prod": {
+                    "ext": {
+                        "aws": {
+                            "ecr": "448351264582.dkr.ecr.eu-central-1.amazonaws.com/nxg-web-prod",
+                            "deployHook": "https://admin.nxg-prod-eu.24i.customer.cloud.nl/jenkins/",
+                            "region": "eu-central-1",
+                            "url": "https://canary.web.nxg.prod.24imedia.com",
+                            "deploymentTokenKey": "prod"
+                        },
+                        "vercel": {
+                            "projectName": "smartapps-smartott-whitelabel",
+                            "url": "https://smartapps-smartott-whitelabel.vercel.app"
+                        }
+                    }
+                }
+            },
+            "entryFile": "index.web"
+        }
+    }
+}

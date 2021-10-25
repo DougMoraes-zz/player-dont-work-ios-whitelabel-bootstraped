@@ -1,0 +1,452 @@
+{
+    "engines": {
+        "@rnv/engine-rn": "source:rnv",
+        "@rnv/engine-rn-next": "source:rnv"
+    },
+    "defaults": {
+        "title": "Hello Renative",
+        "id": "com.mycompany.playbackscreen_morerecent",
+        "supportedPlatforms": [
+            "ios",
+            "android",
+            "web",
+            "androidtv",
+            "firetv",
+            "tvos"
+        ]
+    },
+    "paths": {
+        "appConfigsDir": "./appConfigs",
+        "entryDir": "./",
+        "platformAssetsDir": "./platformAssets",
+        "platformBuildsDir": "./platformBuilds",
+        "pluginTemplates": {
+            "nxg": {
+                "npm": "@24i/nxg-sdk-plugins",
+                "path": "./pluginTemplates"
+            }
+        },
+        "projectConfigDir": "./projectConfig"
+    },
+    "platforms": {
+        "android": {
+            "gradleWrapperVersion": "6.7.1",
+            "gradleBuildToolsVersion": "4.2.1",
+            "targetSdkVersion": 30,
+            "compileSdkVersion": 30,
+            "enableAndroidX": true,
+            "gradle.properties": {
+                "android.useDeprecatedNdk": true,
+                "android.enableJetifier": true,
+                "android.useAndroidX": true,
+                "android.debug.obsoleteApi": true,
+                "org.gradle.jvmargs": "-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8",
+                "org.gradle.daemon": true,
+                "org.gradle.parallel": true,
+                "org.gradle.configureondemand": true
+            },
+            "AndroidManifest": {
+                "children": [
+                    {
+                        "tag": "application",
+                        "android:name": ".MainApplication",
+                        "android:usesCleartextTraffic": true,
+                        "tools:targetApi": 28,
+                        "children": [
+                            {
+                                "tag": "activity",
+                                "android:name": ".SplashActivity",
+                                "android:screenOrientation": "fullSensor"
+                            },
+                            {
+                                "tag": "activity",
+                                "android:name": ".MainActivity",
+                                "android:launchMode": "singleTask",
+                                "android:screenOrientation": "fullSensor"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "runtime": {
+                "features": {}
+            }
+        },
+        "androidtv": {
+            "enableAndroidX": true,
+            "gradle.properties": {
+                "android.useDeprecatedNdk": true,
+                "android.enableJetifier": true,
+                "android.useAndroidX": true,
+                "android.debug.obsoleteApi": true,
+                "org.gradle.jvmargs": "-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8",
+                "org.gradle.daemon": true,
+                "org.gradle.parallel": true,
+                "org.gradle.configureondemand": true
+            },
+            "runtime": {
+                "features": {}
+            }
+        },
+        "firetv": {
+            "enableAndroidX": true,
+            "gradle.properties": {
+                "android.useDeprecatedNdk": true,
+                "android.enableJetifier": true,
+                "android.useAndroidX": true,
+                "android.debug.obsoleteApi": true,
+                "org.gradle.jvmargs": "-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8",
+                "org.gradle.daemon": true,
+                "org.gradle.parallel": true,
+                "org.gradle.configureondemand": true
+            },
+            "runtime": {
+                "features": {}
+            }
+        },
+        "ios": {
+            "deploymentTarget": "12.0",
+            "Podfile": {
+                "sources": [
+                    "https://github.com/24i/prd-nxg-cocoapods.git",
+                    "https://github.com/24i/smart-ott-ios-pods.git",
+                    "https://cdn.cocoapods.org/"
+                ]
+            },
+            "runtime": {
+                "features": {}
+            }
+        },
+        "tvos": {
+            "deploymentTarget": "12.0",
+            "excludedPlugins": [
+                "@react-native-firebase"
+            ],
+            "runtime": {
+                "features": {}
+            }
+        },
+        "web": {
+            "engine": "engine-rn-next",
+            "runtime": {
+                "features": {}
+            }
+        }
+    },
+    "plugins": {
+        "@24i/nxg-sdk-smartott": "source:nxg",
+        "@24i/nxg-sdk-smartott-defaults": "source:nxg",
+        "@24i/nxg-core-utils": "source:nxg",
+        "@24i/nxg-core-focus-guide": "source:nxg",
+        "@24i/nxg-core-kitchen-sink": "source:nxg",
+        "@24i/nxg-sdk-higgs": "source:nxg",
+        "@24i/nxg-sdk-quarks": "source:nxg",
+        "@24i/nxg-sdk-gluons": "source:nxg",
+        "@24i/nxg-sdk-photon": "source:nxg",
+        "@24i/nxg-sdk-quantum": "source:nxg",
+        "@24i/nxg-core-router": "source:nxg",
+        "@24i/nxg-core-focus": "source:nxg",
+        "@24i/nxg-sdk-plugins": {
+            "version": "2.16.30-next.f2d650181",
+            "webpack": {
+                "modulePaths": true
+            }
+        },
+        "@24i/nxg-sdk-epg": "source:nxg",
+        "@24i/nxg-integration-backstage": "source:nxg",
+        "@24i/nxg-sdk-smartott-stubs": "source:nxg",
+        "@24i/react-native-google-cast": "source:nxg",
+        "renative": "source:nxg",
+        "react": "source:nxg",
+        "react-art": "source:nxg",
+        "react-dom": "source:nxg",
+        "react-native": "source:nxg",
+        "react-native-web": "source:nxg",
+        "react-native-web-image-loader": "source:nxg",
+        "react-native-gesture-handler": "source:nxg",
+        "@react-navigation": "source:nxg",
+        "react-native-safe-area-context": "source:nxg",
+        "@react-native-community/masked-view": "source:nxg",
+        "react-navigation-tabs": "source:nxg",
+        "react-native-idle-timer": "source:nxg",
+        "react-native-system-setting": "source:nxg",
+        "react-native-reanimated": "source:nxg",
+        "react-native-dotenv": "source:nxg",
+        "react-native-vector-icons": "source:nxg",
+        "react-native-image-cache-manager": "source:nxg",
+        "react-native-fs": "source:nxg",
+        "react-native-fast-image": "source:nxg",
+        "@react-native-community/async-storage": "source:nxg",
+        "@react-native-community/blur": "source:nxg",
+        "react-native-screens": "source:nxg",
+        "@react-native-community/netinfo": "source:nxg",
+        "i18next": "source:nxg",
+        "react-i18next": "source:nxg",
+        "deepmerge": "source:nxg",
+        "@testing-library/react-native": "source:nxg",
+        "react-native-super-grid": "source:nxg",
+        "react-native-web-linear-gradient": "source:nxg",
+        "@monterosa/react-native-parallax-scroll": "source:nxg",
+        "react-native-dominant-color": "source:nxg",
+        "react-native-linear-gradient": "source:nxg",
+        "react-native-navigation-bar-color": "source:nxg",
+        "react-native-device-info": "source:nxg",
+        "recyclerlistview": "source:nxg",
+        "next": "source:nxg",
+        "rn-fetch-blob": "source:nxg",
+        "@amino/get-session-id-web": "source:nxg",
+        "@amino/sdk": "source:nxg",
+        "@next/bundle-analyzer": "source:nxg",
+        "@react-navigation/native-stack": "source:nxg",
+        "@zeit/next-css": "source:nxg",
+        "babel-loader": "source:nxg",
+        "babel-preset-expo": "source:nxg",
+        "html-webpack-harddisk-plugin": "source:nxg",
+        "html-webpack-plugin": "source:nxg",
+        "lodash.debounce": "source:nxg",
+        "memoizee": "source:nxg",
+        "metro": "source:nxg",
+        "next-compose-plugins": "source:nxg",
+        "next-fonts": "source:nxg",
+        "next-images": "source:nxg",
+        "next-page-transitions": "source:nxg",
+        "next-routes": "source:nxg",
+        "next-transpile-modules": "source:nxg",
+        "react-input-slider": "source:nxg",
+        "react-modal": "source:nxg",
+        "react-native-modal": "source:nxg",
+        "react-native-web-modal": "source:nxg",
+        "react-native-event-listeners": "source:nxg",
+        "react-native-scrollable-picker": "source:nxg",
+        "react-spring": "source:nxg",
+        "react-toggle-switch": "source:nxg",
+        "react-use-gesture": "source:nxg",
+        "simple-git": "source:nxg",
+        "style-builder": "source:nxg",
+        "suitest": "source:nxg",
+        "swiper": "source:nxg",
+        "uglifyjs-webpack-plugin": "source:nxg",
+        "react-native-home-indicator": "source:nxg",
+        "react-native-turbo-scrollview": "source:nxg",
+        "react-native-parallax-view": "source:nxg",
+        "react-native-toast-message": "source:nxg",
+        "@reactseals/react-native-snap-scrollview": "source:nxg",
+        "@react-native-community/viewpager": "source:nxg",
+        "react-native-iap": "source:nxg",
+        "react-native-airplay-ios": "source:nxg",
+        "react-native-swiper": "source:nxg",
+        "react-native-action-button": "source:nxg",
+        "@react-native-firebase/app": "source:nxg",
+        "@react-native-firebase/analytics": "source:nxg",
+        "@react-native-firebase/crashlytics": "source:nxg",
+        "react-native-safe-area-view": "source:nxg",
+        "slick-carousel": "source:nxg",
+        "react-native-orientation-locker": "source:nxg",
+        "react-native-localize": "source:nxg",
+        "react-native-tvos-controller": "source:nxg",
+        "@react-native-community/slider": "source:nxg",
+        "react-beforeunload": "source:nxg",
+        "@reactseals/react-native-leanback": "source:nxg",
+        "react-native-tv-remote-handler": "source:nxg",
+        "react-native-snap-carousel": "source:nxg",
+        "@sentry/node": "source:nxg",
+        "react-native-call-detection": "source:nxg",
+        "@24i/player-ui-react-native": "source:nxg",
+        "@24i/react-native-player": "source:nxg",
+        "@24i/player-ui-react": "source:nxg",
+        "@24i/player-utils": "source:nxg",
+        "@24i/player-base": "source:nxg",
+        "@24i/player-html5": "source:nxg",
+        "@24i/player-shaka-player": "source:nxg",
+        "@24i/player-plugin-ads": "source:nxg",
+        "@24i/player-ima-ads": "source:nxg",
+        "@24i/player-react-native-main": "source:nxg",
+        "@24i/player-utils-react": "source:nxg",
+        "@24i/player-utils-react-native": "source:nxg",
+        "@24i/player-ui": "source:nxg",
+        "react-native-svg": "source:nxg",
+        "svgs": "source:nxg",
+        "react-native-media-query": "source:nxg",
+        "react-native-keyevent": "source:nxg",
+        "react-native-render-html": "source:nxg",
+        "react-native-webview": "source:nxg",
+        "i18next-icu": "source:nxg",
+        "intl-messageformat": "source:nxg"
+    },
+    "permissions": {
+        "ios": {},
+        "android": {
+            "gradle.properties": {
+                "android.debug.obsoleteApi": true,
+                "org.gradle.jvmargs": "-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8",
+                "debug.keystore": "debug.keystore",
+                "org.gradle.daemon": true,
+                "org.gradle.parallel": true,
+                "org.gradle.configureondemand": true
+            },
+            "INTERNET": {
+                "key": "android.permission.INTERNET",
+                "security": "normal"
+            },
+            "SYSTEM_ALERT_WINDOW": {
+                "key": "android.permission.SYSTEM_ALERT_WINDOW",
+                "security": "signature"
+            }
+        }
+    },
+    "runtime": {
+        "apiService": {
+            "id": "5e0ad1b0-515e-11e9-a7ed-371ac744bd33",
+            "appId": {
+                "ios": "af142e90-5239-11e9-8653-01d2ef1c17e9",
+                "tvos": "bbc01bb0-5239-11e9-a204-1fbfae6820b0",
+                "android": "5dc484f0-d7ec-11ea-9758-096b005f3efd",
+                "default": "67eae630-d7ec-11ea-9077-3fff30e06028"
+            }
+        }
+    },
+    "projectName": "PLaybackScreen_morerecent",
+    "workspaceID": "nextgen",
+    "templates": {
+        "@24i/nxg-template-smartott-whitelabel": {
+            "version": "2.16.30-next.f2d650181"
+        }
+    },
+    "currentTemplate": "@24i/nxg-template-smartott-whitelabel",
+    "isMonorepo": false,
+    "templateConfig": {
+        "includedPaths": [
+            "next.config.js",
+            "babel.config.js",
+            "appConfigs",
+            "public",
+            "src"
+        ],
+        "bootstrapQuestions": [
+            {
+                "title": "Which backstage service to use?",
+                "type": "list",
+                "configProp": {
+                    "key": "runtime.apiService",
+                    "file": "renative.json"
+                },
+                "options": [
+                    {
+                        "title": "Smart Apps",
+                        "value": {
+                            "id": "5e0ad1b0-515e-11e9-a7ed-371ac744bd33",
+                            "appId": {
+                                "ios": "af142e90-5239-11e9-8653-01d2ef1c17e9",
+                                "tvos": "bbc01bb0-5239-11e9-a204-1fbfae6820b0",
+                                "android": "5dc484f0-d7ec-11ea-9758-096b005f3efd",
+                                "default": "67eae630-d7ec-11ea-9077-3fff30e06028"
+                            }
+                        }
+                    },
+                    {
+                        "title": "NXG - EU",
+                        "value": {
+                            "id": "53e42c40-d0a5-11e9-8268-5965b1d486b9",
+                            "appId": {
+                                "ios": "f5a026d0-d7eb-11ea-b923-39f1fbb31bdc",
+                                "tvos": "0d1e7980-d7ec-11ea-a211-bd0204b4d21a",
+                                "android": "151f26f0-d7ec-11ea-92fc-fd4094caf2b8",
+                                "default": "1d3e3ee0-d7ec-11ea-9679-77d393ef190f"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Next Gen - US",
+                        "id": "5b4d3250-d0a5-11e9-a0fe-2b5296991d24",
+                        "value": {
+                            "appId": {
+                                "ios": "5ca8e3b0-d3c3-11e9-993b-39de02375824",
+                                "tvos": "5ffed8b0-d3c3-11e9-967e-750d952d6cb4",
+                                "android": "35256b70-3094-11ea-ad9e-15ed68302f1a",
+                                "default": "2f5a24c0-d7ec-11ea-af1a-e5b9227ffc44"
+                            }
+                        }
+                    },
+                    {
+                        "title": "CWC Service",
+                        "value": {
+                            "id": "d024d090-cd09-11ea-af59-6fdf202261a6",
+                            "appId": {
+                                "ios": "b922f880-dca8-11ea-988c-39859deee1a2",
+                                "android": "be2625d0-dca8-11ea-8be4-c7855d689056",
+                                "default": "b36b1c30-dca8-11ea-8ffd-bd9825ae0442"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Custom...",
+                        "id": "",
+                        "appId": {
+                            "default": ""
+                        },
+                        "bootstrapQuestions": [
+                            {
+                                "title": "Type Backstage service ID",
+                                "required": true,
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.id",
+                                    "file": "renative.json"
+                                }
+                            },
+                            {
+                                "title": "Type Backstage service default App ID",
+                                "required": true,
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.appId.default",
+                                    "file": "renative.json"
+                                }
+                            },
+                            {
+                                "title": "Type Backstage service App ID for Android (leave blank in not applicable)",
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.appId.android",
+                                    "file": "renative.json"
+                                }
+                            },
+                            {
+                                "title": "Type Backstage service App ID for iOS (leave blank in not applicable)",
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.appId.ios",
+                                    "file": "renative.json"
+                                }
+                            },
+                            {
+                                "title": "Type Backstage service App ID for Android TV (leave blank in not applicable)",
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.appId.androidtv",
+                                    "file": "renative.json"
+                                }
+                            },
+                            {
+                                "title": "Type Backstage service App ID for tvOS (leave blank in not applicable)",
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.appId.tvos",
+                                    "file": "renative.json"
+                                }
+                            },
+                            {
+                                "title": "Type Backstage service App ID for Web (leave blank in not applicable)",
+                                "type": "input",
+                                "configProp": {
+                                    "key": "runtime.apiService.appId.web",
+                                    "file": "renative.json"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

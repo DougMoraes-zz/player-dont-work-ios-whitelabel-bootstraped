@@ -1,0 +1,419 @@
+{
+    "id": "base",
+    "hidden": true,
+    "common": {
+        "id": "NOT_CONFIGURED",
+        "title": "NOT_CONFIGURED",
+        "description": "NOT_CONFIGURED",
+        "author": {
+            "name": "24i",
+            "email": "24i <info@24i.com>",
+            "url": "https://24i.com"
+        },
+        "license": "",
+        "includedPlugins": ["*"],
+        "excludedPlugins": [],
+        "includedFonts": ["*"],
+        "backgroundColor": "#222222",
+        "versionCodeFormat": "00.00.00.0000",
+        "versionFormat": "0.0.0"
+    },
+    "platforms": {
+        "ios": {
+            "scheme": "RNVApp",
+            "teamID": "Q7X4226FQ6",
+            "allowProvisioningUpdates": true,
+            "includedPermissions": ["*"],
+            "exportOptions": {
+                "teamID": "Q7X4226FQ6",
+                "uploadBitcode": true,
+                "compileBitcode": false,
+                "uploadSymbols": true,
+                "signingStyle": "manual",
+                "signingCertificate": "iPhone Distribution"
+            },
+            "orientationSupport": {
+                "phone": [
+                    "UIInterfaceOrientationPortrait",
+                    "UIInterfaceOrientationPortraitUpsideDown",
+                    "UIInterfaceOrientationLandscapeLeft",
+                    "UIInterfaceOrientationLandscapeRight"
+                ],
+                "tab": [
+                    "UIInterfaceOrientationPortrait",
+                    "UIInterfaceOrientationPortraitUpsideDown",
+                    "UIInterfaceOrientationLandscapeLeft",
+                    "UIInterfaceOrientationLandscapeRight"
+                ]
+            },
+            "plistExtra": {
+                "ITSAppUsesNonExemptEncryption": false
+            },
+            "provisioningStyle": "Automatic",
+            "systemCapabilities": {
+                "com.apple.AccessWiFi": false,
+                "com.apple.ApplePay": false,
+                "com.apple.ApplicationGroups.iOS": false,
+                "com.apple.AutoFillCredentialProvider": false,
+                "com.apple.BackgroundModes": true,
+                "com.apple.ClassKit": false,
+                "com.apple.DataProtection": false,
+                "com.apple.GameCenter.iOS": false,
+                "com.apple.HealthKit": false,
+                "com.apple.HomeKit": false,
+                "com.apple.HotspotConfiguration": false,
+                "com.apple.InAppPurchase": false,
+                "com.apple.InterAppAudio": false,
+                "com.apple.Keychain": false,
+                "com.apple.Maps.iOS": false,
+                "com.apple.Multipath": false,
+                "com.apple.NearFieldCommunicationTagReading": false,
+                "com.apple.NetworkExtensions.iOS": false,
+                "com.apple.Push": true,
+                "com.apple.SafariKeychain": false,
+                "com.apple.Siri": false,
+                "com.apple.VPNLite": false,
+                "com.apple.WAC": false,
+                "com.apple.Wallet": false,
+                "com.apple.iCloud": false
+            },
+            "entitlements": {
+                "aps-environment": "development"
+            },
+            "buildSchemes": {
+                "debug": {
+                    "runScheme": "Debug",
+                    "bundleAssets": false
+                },
+                "alpha": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {}
+                    },
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true
+                },
+                "alphaAuto": {
+                    "runScheme": "Release",
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true,
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "uploadBitcode": true,
+                        "compileBitcode": false,
+                        "uploadSymbols": true,
+                        "signingStyle": "automatic",
+                        "signingCertificate": "iPhone Distribution"
+                    }
+                },
+                "canary": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {}
+                    },
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true
+                },
+                "canaryAuto": {
+                    "runScheme": "Release",
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true,
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "uploadBitcode": true,
+                        "compileBitcode": false,
+                        "uploadSymbols": true,
+                        "signingStyle": "automatic",
+                        "signingCertificate": "iPhone Distribution"
+                    }
+                },
+                "prod": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {}
+                    },
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true
+                },
+                "appstoreAuto": {
+                    "runScheme": "Release",
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true,
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "app-store",
+                        "uploadBitcode": true,
+                        "compileBitcode": false,
+                        "uploadSymbols": true,
+                        "signingStyle": "automatic",
+                        "signingCertificate": "iPhone Distribution"
+                    }
+                },
+                "appstore": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false
+                }
+            }
+        },
+        "android": {
+            "locales": "'en-US'",
+            "includedPPermissions": ["*"],
+            "gradleBuildToolsVersion": "4.1.0",
+            "gradleWrapperVersion": "6.7.1",
+            "orientationSupport": {
+                "phone": ["portrait", "portrait-upside-down", "landscape-left", "landscape-right"],
+                "tab": ["portrait", "portrait-upside-down", "landscape-left", "landscape-right"]
+            },
+            "buildSchemes": {
+                "debug": {
+                    "signingConfig": "Debug",
+                    "bundleAssets": false
+                },
+                "alpha": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                },
+                "canary": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                },
+                "prod": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                },
+                "playstore": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false
+                }
+            }
+        },
+        "web": {
+            "buildSchemes": {
+                "debug": {
+                    "bundleAssets": false,
+                    "environment": "development",
+                    "webpackConfig": {
+                        "baseUrl": "/"
+                    }
+                },
+                "alpha": {
+                    "bundleIsDev": false,
+                    "environment": "production",
+                    "webpackConfig": {
+                        "baseUrl": "/"
+                    }
+                },
+                "canary": {
+                    "bundleIsDev": false,
+                    "bundleAssets": true,
+                    "environment": "production",
+                    "webpackConfig": {
+                        "baseUrl": "/"
+                    }
+                },
+                "prod": {
+                    "bundleIsDev": false,
+                    "bundleAssets": true,
+                    "environment": "production",
+                    "webpackConfig": {
+                        "baseUrl": "/"
+                    }
+                }
+            }
+        },
+        "tvos": {
+            "scheme": "RNVAppTVOS",
+            "teamID": "Q7X4226FQ6",
+            "sdk": "appletvos",
+            "allowProvisioningUpdates": true,
+            "includedPPermissions": ["*"],
+            "exportOptions": {
+                "teamID": "Q7X4226FQ6",
+                "uploadBitcode": true,
+                "compileBitcode": false,
+                "uploadSymbols": true,
+                "signingStyle": "manual",
+                "signingCertificate": "iPhone Distribution"
+            },
+            "plistExtra": {
+                "ITSAppUsesNonExemptEncryption": false
+            },
+            "provisioningStyle": "Automatic",
+            "systemCapabilities": {
+                "com.apple.AccessWiFi": false,
+                "com.apple.ApplePay": false,
+                "com.apple.ApplicationGroups.iOS": false,
+                "com.apple.AutoFillCredentialProvider": false,
+                "com.apple.BackgroundModes": false,
+                "com.apple.ClassKit": false,
+                "com.apple.DataProtection": false,
+                "com.apple.GameCenter.iOS": false,
+                "com.apple.HealthKit": false,
+                "com.apple.HomeKit": false,
+                "com.apple.HotspotConfiguration": false,
+                "com.apple.InAppPurchase": false,
+                "com.apple.InterAppAudio": false,
+                "com.apple.Keychain": false,
+                "com.apple.Maps.iOS": false,
+                "com.apple.Multipath": false,
+                "com.apple.NearFieldCommunicationTagReading": false,
+                "com.apple.NetworkExtensions.iOS": false,
+                "com.apple.Push": true,
+                "com.apple.SafariKeychain": false,
+                "com.apple.Siri": false,
+                "com.apple.VPNLite": false,
+                "com.apple.WAC": false,
+                "com.apple.Wallet": false,
+                "com.apple.iCloud": false
+            },
+            "entitlements": {
+                "aps-environment": "development"
+            },
+            "buildSchemes": {
+                "debug": {
+                    "runScheme": "Debug",
+                    "bundleAssets": false,
+                    "environment": "development"
+                },
+                "alpha": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {}
+                    },
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true
+                },
+                "canary": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {}
+                    },
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true
+                },
+                "prod": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "ad-hoc",
+                        "provisioningProfiles": {}
+                    },
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true
+                },
+                "appstoreAuto": {
+                    "runScheme": "Release",
+                    "ignoreWarnings": true,
+                    "ignoreLogs": true,
+                    "bundleAssets": true,
+                    "bundleIsDev": false,
+                    "exportOptions": {
+                        "method": "app-store",
+                        "uploadBitcode": true,
+                        "compileBitcode": false,
+                        "uploadSymbols": true,
+                        "signingStyle": "automatic",
+                        "signingCertificate": "iPhone Distribution"
+                    }
+                }
+            }
+        },
+        "androidtv": {
+            "locales": "'en-US'",
+            "includedPermissions": ["*"],
+            "gradleBuildToolsVersion": "4.1.0",
+            "gradleWrapperVersion": "6.7.1",
+            "versionCodeFormat": "00.00.00.00000",
+            "buildSchemes": {
+                "debug": {
+                    "signingConfig": "Debug",
+                    "bundleAssets": false
+                },
+                "alpha": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                },
+                "canary": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                },
+                "prod": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                }
+            }
+        },
+        "firetv": {
+            "locales": "'en-US'",
+            "includedPermissions": ["*"],
+            "buildSchemes": {
+                "debug": {
+                    "signingConfig": "Debug",
+                    "bundleAssets": false
+                },
+                "alpha": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                },
+                "prod": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true,
+                    "excludedPlugins": []
+                }
+            }
+        }
+    },
+    "ext": {
+        "slack": {
+            "hooks": [
+                "T029NB40C/BM87B740N/C6W5cF95jfKJ09HQDgsl60rb",
+                "T029NB40C/BMSLE4R9N/xXFRVKPoqddIgpru6Uff27Gy"
+            ]
+        },
+        "aws": {
+            "profile": "24i"
+        }
+    },
+    "runtime": {
+      "appVersion": "{{files.project.package.version}}",
+      "timestamp": "{{runtimeProps.timestamp}}"
+    }
+}

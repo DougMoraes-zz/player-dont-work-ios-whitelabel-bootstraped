@@ -1,0 +1,10 @@
+{
+    "overrides": {
+        "lib/toolbar-android.js": {
+            "import { ToolbarAndroid } from './react-native';": "const ToolbarAndroid = { Item: () => null };"
+        },
+        "lib/tab-bar-item-ios.js": {
+            "import { TabBarIOS } from './react-native';": "const TabBarIOS = { Item: () => null };"
+        }
+    }
+}

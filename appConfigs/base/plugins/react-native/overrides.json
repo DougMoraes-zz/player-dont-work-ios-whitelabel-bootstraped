@@ -1,0 +1,10 @@
+{
+    "overrides": {
+        "React/CxxBridge/RCTCxxBridge.mm": {
+            "- (NSArray<RCTModuleData *> *)_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules": "- (NSArray<RCTModuleData *> *)_initializeModules:(NSArray<Class> *)modules"
+        },
+        "ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm": {
+            "RCTBridgeModuleNameForClass(module));": "RCTBridgeModuleNameForClass(Class(module)));"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "apiService": {
+        "id": "5e0ad1b0-515e-11e9-a7ed-371ac744bd33",
+        "appId": {
+            "ios": "af142e90-5239-11e9-8653-01d2ef1c17e9",
+            "tvos": "bbc01bb0-5239-11e9-a204-1fbfae6820b0",
+            "android": "5dc484f0-d7ec-11ea-9758-096b005f3efd",
+            "default": "67eae630-d7ec-11ea-9077-3fff30e06028"
+        }
+    },
+    "appVersion": "0.1.0",
+    "timestamp": "1635150783185",
+    "features": {}
+}
