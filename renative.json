@@ -5,7 +5,7 @@
     },
     "defaults": {
         "title": "Hello Renative",
-        "id": "com.mycompany.playbackscreen_morerecent",
+        "id": "com.mycompany.playbackscreen_plist_fix",
         "supportedPlatforms": [
             "ios",
             "android",
@@ -113,6 +113,16 @@
                     "https://cdn.cocoapods.org/"
                 ]
             },
+            "plist": {
+                "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized content to you.",
+                "LSApplicationQueriesSchemes": [
+                    "cin"
+                ],
+                "UIBackgroundModes": [
+                    "audio",
+                    "remote-notification"
+                ]
+            },
             "runtime": {
                 "features": {}
             }
@@ -147,7 +157,7 @@
         "@24i/nxg-core-router": "source:nxg",
         "@24i/nxg-core-focus": "source:nxg",
         "@24i/nxg-sdk-plugins": {
-            "version": "2.16.30-next.f2d650181",
+            "version": "2.16.59-next.f5aaa7408",
             "webpack": {
                 "modulePaths": true
             }
@@ -305,11 +315,11 @@
             }
         }
     },
-    "projectName": "PLaybackScreen_morerecent",
+    "projectName": "PLaybackScreen_plist_fix",
     "workspaceID": "nextgen",
     "templates": {
         "@24i/nxg-template-smartott-whitelabel": {
-            "version": "2.16.30-next.f2d650181"
+            "version": "2.16.59-next.f5aaa7408"
         }
     },
     "currentTemplate": "@24i/nxg-template-smartott-whitelabel",
@@ -357,8 +367,8 @@
                     },
                     {
                         "title": "Next Gen - US",
-                        "id": "5b4d3250-d0a5-11e9-a0fe-2b5296991d24",
                         "value": {
+                            "id": "5b4d3250-d0a5-11e9-a0fe-2b5296991d24",
                             "appId": {
                                 "ios": "5ca8e3b0-d3c3-11e9-993b-39de02375824",
                                 "tvos": "5ffed8b0-d3c3-11e9-967e-750d952d6cb4",
@@ -380,9 +390,11 @@
                     },
                     {
                         "title": "Custom...",
-                        "id": "",
-                        "appId": {
-                            "default": ""
+                        "value": {
+                            "id": "",
+                            "appId": {
+                                "default": ""
+                            }
                         },
                         "bootstrapQuestions": [
                             {

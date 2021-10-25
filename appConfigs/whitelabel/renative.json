@@ -2,7 +2,7 @@
     "extend": "base",
     "id": "whitelabel",
     "common": {
-        "id": "com.mycompany.playbackscreen_morerecent",
+        "id": "com.mycompany.playbackscreen_plist_fix",
         "description": "24i Smart OTT Whitelabel Template",
         "title": "Hello Renative",
         "excludedPlugins": [
@@ -111,6 +111,47 @@
                 }
             }
         },
+        "tvos": {
+            "entryFile": "index.tvos",
+            "plist": {
+                "ITSAppUsesNonExemptEncryption": false
+            },
+            "buildSchemes": {
+                "debug": {
+                    "title": "Whitelabel Debug",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.debug"
+                },
+                "alpha": {
+                    "appleId": "1488914984",
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha",
+                    "provisioningStyle": "Manual",
+                    "codeSignIdentity": "Apple Distribution",
+                    "provisionProfileSpecifier": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha AppStore 1579104685",
+                    "exportOptions": {
+                        "method": "app-store",
+                        "provisioningProfiles": {
+                            "com.twentyfouri.nxg.whitelabel.template.smartott.alpha": "com.twentyfouri.nxg.whitelabel.template.smartott.alpha AppStore 1579104685"
+                        }
+                    }
+                },
+                "prod": {
+                    "appleId": "1478798665",
+                    "provisioningStyle": "Manual",
+                    "provisionProfileSpecifier": "com.twentyfouri.nxg.whitelabel.template.smartott AppStore 1579104772",
+                    "codeSignIdentity": "Apple Distribution",
+                    "exportOptions": {
+                        "method": "app-store",
+                        "provisioningProfiles": {
+                            "com.twentyfouri.nxg.whitelabel.template.smartott": "com.twentyfouri.nxg.whitelabel.template.smartott AppStore 1579104772"
+                        }
+                    }
+                },
+                "appstoreAuto": {
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott"
+                }
+            }
+        },
         "android": {
             "entryFile": "index.android",
             "buildSchemes": {
@@ -136,6 +177,58 @@
                             "firebaseId": "1:391571502786:android:74e2396b7ce0e9a94bed5b"
                         },
                         "play": {}
+                    }
+                }
+            }
+        },
+        "androidtv": {
+            "entryFile": "index.androidtv",
+            "buildSchemes": {
+                "debug": {
+                    "title": "Whitelabel Debug",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.tv.debug",
+                    "ext": {
+                        "play": {}
+                    }
+                },
+                "alpha": {
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.tv.alpha",
+                    "ext": {
+                        "play": {}
+                    }
+                },
+                "prod": {
+                    "title": "Whitelabel",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott",
+                    "ext": {
+                        "play": {}
+                    }
+                }
+            }
+        },
+        "firetv": {
+            "entryFile": "index.firetv",
+            "buildSchemes": {
+                "debug": {
+                    "title": "Whitelabel Debug",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.tv.debug",
+                    "ext": {
+                        "amazon": {}
+                    }
+                },
+                "alpha": {
+                    "title": "Whitelabel Alpha",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott.tv.alpha",
+                    "ext": {
+                        "amazon": {}
+                    }
+                },
+                "prod": {
+                    "title": "Whitelabel",
+                    "id": "com.twentyfouri.nxg.whitelabel.template.smartott",
+                    "ext": {
+                        "amazon": {}
                     }
                 }
             }

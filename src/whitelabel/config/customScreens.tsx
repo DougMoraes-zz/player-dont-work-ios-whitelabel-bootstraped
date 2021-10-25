@@ -10,8 +10,6 @@ import {
     SottScreenConfigBuilders,
 } from '@24i/nxg-sdk-smartott/src/navigation/navigationConfig/types';
 import AccountScreen from '../screens/AccountScreen';
-import DetailsScreen from '../screens/DetailsScreen';
-import EpgScreen from '../screens/EpgScreen';
 import GenreScreen from '../screens/GenreScreen';
 import SearchScreen from '../screens/SearchScreen';
 import SettingsScreen from '../screens/SettingsScreen';
@@ -69,19 +67,6 @@ export const CUSTOM_SCREEN_BUILDERS: SottScreenConfigBuilders = {
             },
         };
     },
-    buildDetailsScreen: (menuItem, context): ScreenConfigBuilderResult => {
-        const originalBuild = SOTT_DEFAULT_SCREEN_CONFIG_BUILDERS.buildDetailsScreen(
-            menuItem,
-            context
-        );
-
-        return {
-            ...originalBuild,
-            nativeRenderOptions: {
-                Component: DetailsScreen,
-            },
-        };
-    },
     buildGenreScreen: (menuItem, context): ScreenConfigBuilderResult => {
         const originalBuild = SOTT_DEFAULT_SCREEN_CONFIG_BUILDERS.buildGenreScreen(
             menuItem,
@@ -105,17 +90,6 @@ export const CUSTOM_SCREEN_BUILDERS: SottScreenConfigBuilders = {
             ...originalBuild,
             nativeRenderOptions: {
                 Component: SettingsScreen,
-            },
-        };
-    },
-    buildEpgScreen: (menuItem, context): ScreenConfigBuilderResult => {
-        const originalBuild = SOTT_DEFAULT_SCREEN_CONFIG_BUILDERS.buildEpgScreen(menuItem, context);
-
-        return {
-            ...originalBuild,
-            nativeRenderOptions: {
-                // @ts-expect-error TODO: Type screen
-                Component: EpgScreen,
             },
         };
     },
